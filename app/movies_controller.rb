@@ -90,6 +90,7 @@ def can_update_multiple_items_at_once
   end
   Movie.all.each do |mov|
     mov.update(title: "A Movie")
+  end
 end
 
 def can_destroy_a_single_item
